@@ -1,24 +1,32 @@
 # **Tatsiana Azarenok**
-***
-## **Contacts**
 
-* **Location**: Saint Petersburg, Russia
-* **Phone**: 8 (921) 091-72-88
-* **Email**: tata271219@mail.ru
-* **GitHub**: [TanyaAzarenok](https://github.com/TanyaAzarenok)
-***
+---
+
+# **Contacts**
+
+  * **Location**: Saint Petersburg, Russia
+  * **Phone**: 8 (921) 091-72-88
+  * **Email**: tata271219@mail.ru
+  * **GitHub**: [TanyaAzarenok](https://github.com/TanyaAzarenok)
+
+---
+
 # **About me**
  I like to learn and discover something new every day,
 so I decided to try myself in a new profession.
 My goal is to become a front-end developer.
 I also try to learn Java in my free time.
-***
+
+---
+
 # **Skills**
-* HTML
-* CSS
-* JavaScript
-* Git/Github
-***
+   * HTML
+   * CSS
+   * JavaScript
+   * Git/Github
+
+---
+
 # **Code example**
  ````
  public class main {
@@ -35,17 +43,21 @@ I also try to learn Java in my free time.
     }
 }
 ````
-***
+
+---
+
 # **Experience**
 For the last six years I have been working as an accountant.
-***
+
+---
+
 # **Education**
-* International University MITSO, Belarus
-   + Faculty of Logistics
-***
+   * International University MITSO, Belarus
+     + Faculty of Logistics
+
+---
+   
 # **Languages**
-* Russian - native speaker
-* Belarusian - native speaker
-* English - A2
-
-
+   * Russian - native speaker
+   * Belarusian - native speaker
+   * English - A2
