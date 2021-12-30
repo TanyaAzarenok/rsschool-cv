@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.header {
+    text-align: center;
+    line-height: 80px;
+    height: 5%;
+    width: 100%;
+    border: 0 solid #FFFFFF;
+    background-color: #d7d1c9;
+    word-spacing: 40px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: #666666;
+}
+
+main {
+    margin-bottom: auto;
+}
+
+.container-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+
+.section-education {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+
+}
+
+.section-photo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 30px 35px;
+    border-bottom: 10px solid #d7d1c9;
+}
+
+.TA {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+    vertical-align: center;
+    padding: 80px;
+}
+
+.photo {
+    border-radius: 1000px;
+    border: 3px solid rosybrown;
+    box-shadow: 0 0 7px #666;
+    display: block;
+    text-align: center;
+
+}
+
+.main-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+    vertical-align: center;
+}
+
+
+.contacts-text {
+    line-height: 30px;
+    font-family: "Times New Roman", serif;
+}
+
+
+.code-text {
+    line-height: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.skills-text {
+    line-height: 35px
+}
+
+.languages-text {
+    line-height: 30px
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    height: 10%;
+    width: 100%;
+    border: 0 solid #FFFFFF;
+    background-color: #d7d1c9;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.logo-GitHub {
+    margin-top: 6px;
+}
+
+.year{
+    margin-top: 43px;
+}
+@media (max-width: 768px) {
+    .section-photo {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .section {
+
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .section-education {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
