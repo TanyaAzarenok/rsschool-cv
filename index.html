@@ -2,42 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>MY CV</title>
     <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" user-scalable="yes">
 </head>
 <body>
-<div><h1>Tatsiana
-         Azarenok</h1>
-<h1>Contacts</h1>
-    <ul>
-        <li><b>Locatoin:</b> Saint Petersburg, Russia</li>
-        <li><b>Phone:</b> 8 (921) 091-72-88</li>
-        <li><b>Email:</b> tata271219@mail.ru </li>
-        <li><b>GitHub</b> <a target="_blank" href="https://github.com/TanyaAzarenok" >TanyaAzarenok </a> </li>
-    </ul>
+<div>
+    <header class="header">
+        <nav>
+            <a href="#contacts">Contacts</a>
+            <a href="#summary">Summary</a>
+            <a href="#skills">Skills</a>
+            <a href="#code example">Code</a>
+            <a href="#experience">Experience</a>
+            <a href="#courses">Courses</a>
+            <a href="#education">Education</a>
+            <a href="#languages">Languages</a>
+        </nav>
+    </header>
+</div>
+<main>
+    <div>
+        <section class="section-photo">
+            <img class="photo" src="/avatar.jpg" alt="Avatar" width=17% height=17%>
+            <h1 class="TA"> Tatsiana Azarenok</h1>
+        </section>
+    </div>
 
-<h1>About me</h1>
-<pre> I like to learn and discover something new every day,
+
+    <section class="section-contact">
+        <div>
+            <h1 class="h" id="contacts">Contacts</h1>
+            <ul class="contacts-text">
+                <li><b>Locatoin:</b> Saint Petersburg, Russia</li>
+                <li><b>Phone:</b> 8 (921) 091-72-88</li>
+                <li><b>Email:</b> tata271219@mail.ru</li>
+                <li><b>GitHub</b> <a target="_blank" href="https://github.com/TanyaAzarenok">TanyaAzarenok </a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="h" id="summary">Summary</h1>
+            <pre class="contacts-text">I like to learn and discover something new every day,
 so I decided to try myself in a new profession.
 My goal is to become a front-end developer.
 I also try to learn Java in my free time.</pre>
-<h1>Skills</h1>
+        </div>
+    </section>
 
-    <img src="https://img.icons8.com/ios-filled/100/000000/html-5--v1.png" alt="HTML">
-    HTML
-        <img src="https://img.icons8.com/material/105/000000/css3.png" alt="CSS">
-    CSS
-        <img src="https://img.icons8.com/ios-filled/100/000000/javascript.png" alt="JavaScript">
-    JavaSript
-        <img src="https://img.icons8.com/ios-glyphs/120/000000/github.png" alt="GitHub">
-    GitHub
 
-<h1>Code example</h1>
-    <pre>
-        public class main {
+    <section class="section-skills">
+        <div>
+            <h1 class="h" id="skills">Skills</h1>
+            <ul class="skills-text">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="h" id="code example">Code</h1>
+            <pre class="code-text">
+    public class main {
 
     public static void main(String[] args) {
-        System.out.println ("Добро пожаловать");
         System.out.println ("Hello World");
         int f = 567*56;
         String g = "Привет!";
@@ -45,26 +73,55 @@ I also try to learn Java in my free time.</pre>
         System.out.println (g);
         int a = 35, b = 46-a, c = a+b;
         System.out.println (a+b+c);
+        }
     }
- }
     </pre>
-<h1>Experience</h1>
-    For the last six years I have been working as an accountant.
-<h1>Education</h1>
-    <ul>
-        <li>International University MITSO, Belarus
-          <ul>
-            <li>Faculty of Logistics</li>
-          </ul>
-        </li>
-    </ul>
-<h1>Languages</h1>
-    <ul>
-        <li>Russian - native speaker</li>
-        <li>Belarusian - native speaker</li>
-        <li>English - A2</li>
-    </ul>
-</div>
+        </div>
+    </section>
+
+    <section class="section-experience">
+        <div>
+            <h1 class="h" id="experience">Experience</h1>
+            For the last six years I have been working as an accountant.
+        </div>
+        <div>
+            <h1 class="h" id="courses"> Courses </h1>
+            <a href="https://rs.school/">RSSchool JS/FRONT-END</a>
+        </div>
+    </section>
+    <section class="section-education">
+        <div>
+            <h1 class="h" id="education">Education</h1>
+            <ul>
+                <li>International University MITSO, Belarus
+                    <ul>
+                        <li>Faculty of Logistics</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+
+            <h1 class="h" id="languages">Languages</h1>
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>Belarusian - native speaker</li>
+                <li>English - A2</li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div>
+        <div><a href="https://github.com/TanyaAzarenok">TanyaAzarenok</a></div>
+
+    </div>
+    <div>
+        <a href="https://rs.school/js/">
+            <img class="footer-logo" src="https://rs.school/images/rs_school_js.svg" alt="RSschool">
+        </a>
+    </div>
+</footer>
+
 </body>
 </html>
-
